@@ -8,8 +8,7 @@ git_version=1.8.2
 node_version=v0.10.3
 arch=x86_64
 git_dir=/data/git
-blog_dir=${git_dir}/drewsblog.git
-
+blog_dir=${git_dir}/myblog.git
 
 function die() {
   echo "Error: ${1}";
@@ -42,6 +41,44 @@ function install_git() {
   sudo rm git-${git_version}*.tar.gz*
 }
 
+# Install Node and npm
+function install_node() {
+  sudo /usr/local/bin/git clone https://github.com/joyent/node.git /usr/local/src/node.js
+  pushd /usr/local/src/node.js
+  sudo /usr/local/bin/git checkout ${node_version}
+  sudo ./configure
+  sudo make
+  sudo make install
+}
+
+# Install Wheat
+function install_node_pkgs() {
+  sudo /usr/local/bin/npm install -g wheat proto git-fs step haml datetime simple-mime stack creationix
+}
+
+# Setup blog git repo
+function setup_blog() {
+  sudo mkdir -p ${blog_dir} && sudo chown -R ec2-user:ec2-user ${git_dir}
+  mkdir ${blog_dir}/authors ${blog_dir}/articles ${blog_dir}/server ${blog_dir}/skin
+  cp -R authors/ ${blog_dir}/authors
+  cp -R articles/ ${blog_dir}/articles
+  cp -R skin/ ${blog_dir}/skin
+  cp src/server/server.js ~/blog.js
+  /usr/local/bin/git init
+  /usr/local/bin/git add *
+  /usr/local/bin/git commit -am "initial commit"
+}
+
+function start_git() {
+    sudo cat > /etc/xinet.d/git <<EOF
+  service git
+  {
+        disable = no
+        type            = UNLISTED
+  /usr/local/bin/git add *
+  /usr/local/bin/git commit -am "initial commit"
+}
+
 function start_git() {
     sudo cat > /etc/xinet.d/git <<EOF
   service git
@@ -60,60 +97,20 @@ EOF
   sudo chkconfig xinetd on && sudo service xinetd restart
 }
 
-# Install Node and npm
-function install_node() {
-  sudo /usr/local/bin/git clone https://github.com/joyent/node.git /usr/local/src/node.js
-  pushd /usr/local/src/node.js
-  sudo /usr/local/bin/git checkout ${node_version}
-  sudo ./configure
-  sudo make
-  sudo make install
-}
-
-# Install Wheat
-function install_node_pkgs() {
-  sudo /usr/local/bin/npm install -g wheat proto git-fs step haml datetime simple-mime stack creationix
-}
-
-# Setup blog git repo
-function setup_blog() {
-  sudo mkdir -p ${blog_dir} && chown -R ec2-user:ec2-user ${git_dir}
-  sudo /usr/local/bin/git clone https://github.com/joyent/node.git /usr/local/src/node.js
-  pushd /usr/local/src/node.js
-  sudo /usr/local/bin/git checkout ${node_version}
-  sudo ./configure
-  sudo make
-  sudo make install
-}
-
-# Install Wheat
-function install_node_pkgs() {
-  sudo /usr/local/bin/npm install -g wheat proto git-fs step haml datetime simple-mime stack creationix
-}
-
-# Setup blog git repo
-function setup_blog() {
-  sudo mkdir -p ${blog_dir} && chown -R ec2-user:ec2-user ${git_dir}
-  mkdir ${blog_dir}/authors ${blog_dir}/articles ${blog_dir}/server ${blog_dir}/skin
-  cd $(dir $0) && cp -R authors/ ${blog_dir}/authors && cp -R articles/ ${blog_dir}/articles && cp -R skin/ ${blog_dir}/skin
-  cp server.js ~/blog.js
-  /usr/local/bin/git init --bare ${blog_dir}
-}
-
 function start_node() {
-  node ~/blog.js &
+  /usr/local/bin/node ~/blog.js &
 }
-
 
 # ===== MAIN =====
 sudo service iptables stop
-#if [ "$DEBUG" == "false" ]; then
+if [ "$DEBUG" == "false" ]; then
 install_admin_pkgs
 install_devel_pkgs
 install_git
 install_node
 install_node_pkgs
-#fi
+fi
 setup_blog
-start_git
+#start_git
 start_node
+
