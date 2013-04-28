@@ -63,7 +63,7 @@ function setup_blog() {
   cp -R authors ${blog_dir}
   cp -R articles ${blog_dir}
   cp -R skin ${blog_dir}
-  cp src/server/server.js ~/blog.js
+  cp src/server/server.js ${blog_dir}/blog.js
   /usr/local/bin/git init
   /usr/local/bin/git add *
   /usr/local/bin/git commit -am "initial commit"
