@@ -60,9 +60,9 @@ function install_node_pkgs() {
 function setup_blog() {
   sudo mkdir -p ${blog_dir} && sudo chown -R ec2-user:ec2-user ${git_dir}
   mkdir ${blog_dir}/authors ${blog_dir}/articles ${blog_dir}/server ${blog_dir}/skin
-  cp -R authors/ ${blog_dir}/authors
-  cp -R articles/ ${blog_dir}/articles
-  cp -R skin/ ${blog_dir}/skin
+  cp -R authors ${blog_dir}
+  cp -R articles ${blog_dir}
+  cp -R skin ${blog_dir}
   cp src/server/server.js ~/blog.js
   /usr/local/bin/git init
   /usr/local/bin/git add *
