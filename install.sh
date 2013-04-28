@@ -76,6 +76,11 @@ function setup_blog() {
   /usr/local/bin/git add *
   /usr/local/bin/git commit -am "initial commit"
   cp -R ${blog_dir} ~/myblog
+  ln -s ${blog_dir}/authors ~/
+  ln -s ${blog_dir}/articles ~/
+  ln -s ${blog_dir}/skin ~/
+  ln -s ${blog_dir}/blog.js ~/
+  ln -s ${blog_dir}/description.markdown ~/
 }
 
 function start_node() {
