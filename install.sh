@@ -18,7 +18,7 @@ function die() {
 function route_firewall() {
   sudo service iptables stop
   sudo iptables -X
-  sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j     REDIRECT --to-ports 8080
+#  sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j     REDIRECT --to-ports 8080
 }
 
 function install_admin_pkgs() {
@@ -80,7 +80,6 @@ function start_node() {
 }
 
 # ===== MAIN =====
-sudo service iptables stop
 route_firewall
 if [ "$DEBUG" == "false" ]; then
 install_admin_pkgs
