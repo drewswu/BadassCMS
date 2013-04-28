@@ -73,6 +73,7 @@ function setup_blog() {
   /usr/local/bin/git init
   /usr/local/bin/git add *
   /usr/local/bin/git commit -am "initial commit"
+  ln -s ${blog_dir} ~/myblog
 }
 
 function start_node() {
