@@ -66,16 +66,12 @@ function install_node_pkgs() {
 # Setup blog git repo
 function setup_blog() {
   sudo mkdir -p ${blog_dir} && sudo chown -R ec2-user:ec2-user ${git_dir}
-  mkdir ${blog_dir}/authors ${blog_dir}/articles ${blog_dir}/skin
-  cp -R authors ${blog_dir}
-  cp -R articles ${blog_dir}
-  cp -R skin ${blog_dir}
-  cp src/server/server.js ${blog_dir}/blog.js
-  cp description.markdown ${blog_dir}
+  cp -R * ${blog_dir}
+  cp -R ${blog_dir} ~/myblog
+  cd ${blog_dir}
   /usr/local/bin/git init
   /usr/local/bin/git add *
   /usr/local/bin/git commit -am "initial commit"
-  cp -R ${blog_dir} ~/myblog
   ln -s ${blog_dir}/authors ~/
   ln -s ${blog_dir}/articles ~/
   ln -s ${blog_dir}/skin ~/
