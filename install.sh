@@ -15,6 +15,12 @@ function die() {
   exit 1;
 }
 
+function route_firewall() {
+  sudo service iptables stop
+  sudo iptables -X
+  sudo iptables -t nat -A PREROUTING -p tcp --dport 80 -j     REDIRECT --to-ports 8080
+}
+
 function install_admin_pkgs() {
   sudo yum install -y htop.${arch} monit.${arch} lynx.${arch} telnet.${arch}
   sudo yum install -y mlocate.${arch} && sudo updatedb &
@@ -69,40 +75,13 @@ function setup_blog() {
   /usr/local/bin/git commit -am "initial commit"
 }
 
-function start_git() {
-    sudo cat > /etc/xinet.d/git <<EOF
-  service git
-  {
-        disable = no
-        type            = UNLISTED
-  /usr/local/bin/git add *
-  /usr/local/bin/git commit -am "initial commit"
-}
-
-function start_git() {
-    sudo cat > /etc/xinet.d/git <<EOF
-  service git
-  {
-        disable = no
-        type            = UNLISTED
-        port            = 9418
-        socket_type     = stream
-        wait            = no
-        user            = ec2-user
-        server          = /usr/local/bin/git
-        server_args     = daemon --inetd --export-all --base-path=/data/git
-        log_on_failure  += USERID
-  }
-EOF
-  sudo chkconfig xinetd on && sudo service xinetd restart
-}
-
 function start_node() {
   /usr/local/bin/node src/server/blog.js &
 }
 
 # ===== MAIN =====
 sudo service iptables stop
+route_firewall
 if [ "$DEBUG" == "false" ]; then
 install_admin_pkgs
 install_devel_pkgs
@@ -111,5 +90,4 @@ install_node
 install_node_pkgs
 fi
 setup_blog
-#start_git
 start_node
