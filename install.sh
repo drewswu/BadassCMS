@@ -98,7 +98,7 @@ EOF
 }
 
 function start_node() {
-  /usr/local/bin/node ~/blog.js &
+  /usr/local/bin/node src/server/blog.js &
 }
 
 # ===== MAIN =====
@@ -113,4 +113,3 @@ fi
 setup_blog
 #start_git
 start_node
-
