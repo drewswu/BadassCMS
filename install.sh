@@ -70,10 +70,11 @@ function setup_blog() {
   cp -R articles ${blog_dir}
   cp -R skin ${blog_dir}
   cp src/server/server.js ${blog_dir}/blog.js
+  cp description.markdown ${blog_dir}
   /usr/local/bin/git init
   /usr/local/bin/git add *
   /usr/local/bin/git commit -am "initial commit"
-  ln -s ${blog_dir} ~/myblog
+  cp -R ${blog_dir} ~/myblog
 }
 
 function start_node() {
