@@ -80,7 +80,8 @@ function setup_blog() {
 }
 
 function start_node() {
-  /usr/local/bin/node src/server/blog.js &
+  cd ~/
+  /usr/local/bin/node blog.js &
 }
 
 # ===== MAIN =====
