@@ -4,8 +4,8 @@ Date: Sun, 29 Apr 2013 05:41:35 GMT-0700 (PST)
 Node: v0.10.3
 
 This is my first foray into using Node.js. On the whole, it feels really alpha and a little hacked, but the promise of the 
-Google V8 Javascript engine, with Node by Ryan Dahl, plus the most creative projects in tech right now, means this is 
-is one serious high-powered sandbox for running weird experiments.
+Google V8 Javascript engine, with Node by Ryan Dahl, plus the most creative projects in tech right now, means this could be 
+one seriously high-powered sandbox for running weird experiments.
 
 ## Node.js, Wheat, Github, and Git
 
