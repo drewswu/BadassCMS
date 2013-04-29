@@ -1,14 +1,7 @@
-<<<<<<< HEAD
-Github:		drewswu
-Twitter:	@drewbiewubie
-email:		drewswu@gmail.com
-Location:	San Francisco, CA
-=======
 Github:   drewswu
-Email:	 
-Homepage:	 
+Email:	  drewswu@gmail.com
+Homepage: http://ec2-54-224-12-98.compute-1.amazonaws.com/
 Twitter:  @drewbiewubie
 Location: San Francisco, CA
->>>>>>> f699750fbdc5c1909b0b26e4cd05a09dfabb295d
 
 I work for Twitter, and my views are expressly my own and not those of my employer
