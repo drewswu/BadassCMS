@@ -41,10 +41,10 @@ dl a:hover {
   background-color: #666666;
   padding: 5px;
   float: left;
-  width: 30%;
+  width: 25%;
   position: relative;
   z-index: 50;
-  max-width: 430px;
+  max-width: 420px;
 }
 #footer {
   clear: both;
