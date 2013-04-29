@@ -6,7 +6,7 @@ body {
   font-size: 14px;
   line-height: 1.4em;
   font-family: 'Lucida Grande', sans-serif;
-  color: #333;
+  color: #666666;
   background-image: url("repeating_zellij5.png");
 }
 a {
@@ -47,7 +47,7 @@ dl a:hover {
   clear: both;
   border-top: 1px dashed #ccc;
   padding-top: 15px;
-  color: #666;
+  color: #666666;
 }
 #footer p {
   text-shadow: 0px 1px 0px #fff;
@@ -60,7 +60,7 @@ dl a:hover {
   top: 0;
   width: 100%;
   height: 50px;
-  background-color: #0054a6;
+  background-color: #123456;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0054a6), color-stop(1, #004385));
   background-image: -webkit-linear-gradient(top, #0054a6 0%, #004385 100%);
   background-image: -moz-linear-gradient(top, #0054a6 0%, #004385 100%);
@@ -340,7 +340,7 @@ dl a:hover {
   display: block;
 }
 #sidebar li span {
-  background-color: #7c5229;
+  background-color: #666666;
   border: 1px solid #422100;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
