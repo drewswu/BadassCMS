@@ -77,7 +77,8 @@ dl a:hover {
   overflow: hidden;
 }
 #header .logo {
-  position: absolute;
+  position: relative;
+  height: 90%
   top: -35px;
   left: 18px;
 }
