@@ -299,11 +299,12 @@ dl a:hover {
 }
 #sidebar .aside,
 #sidebar .bubble {
-  color: #3399ff;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 #sidebar h3,
 #sidebar h4 {
+  color: #3399ff;
   padding: 10px 0px;
   border-bottom: 1px dashed #aaa;
   margin-bottom: 10px;
