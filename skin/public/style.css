@@ -10,7 +10,7 @@ body {
   background-image: url("repeating_zellij5.jpg");
 }
 a {
-  color: #0054a6;
+  color: #3399ff;
   text-decoration: none;
 }
 hr {
@@ -62,11 +62,11 @@ dl a:hover {
   width: 100%;
   height: 50px;
   color: #3399ff;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0054a6), color-stop(1, #004385));
-  background-image: -webkit-linear-gradient(top, #0054a6 0%, #004385 100%);
-  background-image: -moz-linear-gradient(top, #0054a6 0%, #004385 100%);
-  background-image: -o-linear-gradient(top, #0054a6 0%, #004385 100%);
-  background-image: -ms-linear-gradient(top, #0054a6 0%, #004385 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3399ff), color-stop(1, #333333));
+  background-image: -webkit-linear-gradient(top, #3399ff 0%, #333333 100%);
+  background-image: -moz-linear-gradient(top, #3399ff 0%, #333333 100%);
+  background-image: -o-linear-gradient(top, #3399ff 0%, #333333 100%);
+  background-image: -ms-linear-gradient(top, #3399ff 0%, #333333 100%);
   border-bottom: 1px solid #003264;
   -webkit-box-shadow: 0px 10px 10px rgba(0,0,0,0.10), inset 0px -1px 0px rgba(255,255,255,0.20);
   -moz-box-shadow: 0px 10px 10px rgba(0,0,0,0.10), inset 0px -1px 0px rgba(255,255,255,0.20);
@@ -200,11 +200,11 @@ dl a:hover {
   margin-left: 20px;
   padding: 5px 10px;
   margin-bottom: 20px;
-  background-color: #0054a6;
+  background-color: #3399ff;
   -webkit-box-shadow: inset 0px 0px 10px rgba(255,255,255,0.20), inset 0px 1px 0px rgba(255,255,255,0.10);
   -moz-box-shadow: inset 0px 0px 10px rgba(255,255,255,0.20), inset 0px 1px 0px rgba(255,255,255,0.10);
   box-shadow: inset 0px 0px 10px rgba(255,255,255,0.20), inset 0px 1px 0px rgba(255,255,255,0.10);
-  border: 1px solid #0054a6;
+  border: 1px solid #3399ff;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
