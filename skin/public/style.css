@@ -37,6 +37,7 @@ dl a:hover {
   z-index: 50;
 }
 #sidebar {
+  color: #666666;
   float: left;
   width: 30%;
   position: relative;
@@ -93,7 +94,7 @@ dl a:hover {
 .article {
   position: relative;
   border: 1px solid #ddd;
-  background-color: #fff;
+  background-color: #666666;
   margin-bottom: 20px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
