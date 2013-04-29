@@ -3,9 +3,13 @@ Author: Drew Wu
 Date: Sun, 29 Apr 2013 05:41:35 GMT-0700 (PST)
 Node: v0.10.3
 
+This is my first foray into using Node.js. On the whole, it feels really alpha and hacked, but the promise of the 
+Google V8 Javascript engine, with Node by Ryan Dahl, plus the most creative projects in tech right now, means this is 
+is one serious high-powered sandbox.
+
 ## Node.js, Wheat, and Git
 
-This blog is my first foray into using Node.js. It uses the wheat module from [Tim Caswell](http://creationix.com/) which
+This blog uses Node.js 0.10.3. It uses the wheat module from [Tim Caswell](http://creationix.com/) which
 handles the blogging framework. I've made quite a few tweaks to the UI, but if you'd like to see the orginal project 
 you can go to [http://howtonode.org](http://howtonode.org). The markdown files are pushed to a git repo server running
 on the site. 
