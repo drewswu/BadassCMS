@@ -1,14 +1,14 @@
-Title: I got to try the Occulus Rift
+Title: Trying the Occulus Rift
 Author: Drew Wu
 Date: Tues, 30 Apr 2013 00:49 GMT-0700 (PST)
 Node: v0.10.3
-So I got to try out the Occulus Rift for one of the demos (Tuscany villa) as well as Team Fortress 2. 
-My immediate impression was that it was really impressive, and a totally new experience, however there's a rather huge caveat which is the disorientation and the motion sickness
-and what I would consider cold sweats from navigating in VR.
 
-I think it may require slowly moving/feeling your way around the navigation system, but I just sort of came in there and started hopping around
-with my FPS moves. I think once you've come down with motion sickness, there's no easy way to get out of it. I also think the keyboard buttons
-for rotation are highly disorienting and this axis of moving needs some other design. I was very impressed with being able to look around and 
+So I got to try out the Occulus Rift today. I was able to play around with Team Fortress 2 and one of the demos (Tuscany villa).
+As I put on the goggles, my immediate impression was of how immersive and novel the experience was. There is, however, quite a caveat. As I started to move around, I felt disoriented with definite signs of motion sickness. In fact, I seemed to be the only one with 
+what I would consider cold sweats while navigating in VR.
+
+Perhaps it requires slow acclimitization and essentially moving/feeling your way around the navigation system. I sort of just came in there and started moving around like an FPS bunny. Unfortunately, once you come down with motion sickness, there's no easy way to reset it back to baseline. The feeling just sort of lingers. The keyboard buttons used 
+for rotation I found highly disorienting. I think the axis for moving around needs some further design. I was very impressed with being able to look around and 
 view the surroundings, and the 3D effect looked sort of like layers of 3D as you would see in the 3D cinema. Another thing that kept getting 
 in the way is the lower resolution, which made things blurry. Forget about trying to read text.
 
