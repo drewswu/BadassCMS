@@ -1,6 +1,6 @@
 Title: I got to try the Occulus Rift
 Author: Drew Wu
-Date: Tues, 30 Apr 00:49 GMT-0700 (PST)
+Date: Tues, 30 Apr 2013 00:49 GMT-0700 (PST)
 Node: v0.10.3
 
 So I got to try out the Occulus Rift for one of the demos (Tuscany villa) as well as Team Fortress 2. 
