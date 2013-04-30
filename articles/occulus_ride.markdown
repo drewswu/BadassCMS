@@ -2,7 +2,6 @@ Title: I got to try the Occulus Rift
 Author: Drew Wu
 Date: Tues, 30 Apr 2013 00:49 GMT-0700 (PST)
 Node: v0.10.3
-
 So I got to try out the Occulus Rift for one of the demos (Tuscany villa) as well as Team Fortress 2. 
 My immediate impression was that it was really impressive, and a totally new experience, however there's a rather huge caveat which is the disorientation and the motion sickness
 and what I would consider cold sweats from navigating in VR.
