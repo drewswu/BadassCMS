@@ -3,8 +3,8 @@ Author: Drew Wu
 Date: Tues, 30 Apr 2013 00:49 GMT-0700 (PST)
 Node: v0.10.3
 
-So I got to try out the Occulus Rift today. I was able to play around with Team Fortress 2 and one of the demos (Tuscany villa).
-As I put on the goggles, my immediate impression was of how immersive and novel the experience was. There is, however, quite a caveat. As I started to move around, I felt disoriented with definite signs of motion sickness. In fact, I seemed to be the only one with 
+I got to try out the Occulus Rift today. #TwitterPerks. I was able to play around with Team Fortress 2 and one of the demos (Tuscany villa).
+As I put on the goggles, my immediate impression was of how immersive and novel the experience was. There is, however, quite a caveat. As I started to move around, I felt disoriented and started to feel signs of motion sickness. I seemed to be the only one with 
 what I would consider cold sweats while navigating in VR.
 
 Perhaps it requires slow acclimitization and essentially moving/feeling your way around the navigation system. I sort of just came in there and started moving around like an FPS bunny. Unfortunately, once you come down with motion sickness, there's no easy way to reset it back to baseline. The feeling just sort of lingers. The keyboard buttons used 
