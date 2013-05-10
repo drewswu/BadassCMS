@@ -1,4 +1,4 @@
-Title: I'm in a cafe with Jonathan Blow
+Title: "I'm in a cafe with Jonathan Blow..."
 Author: Drew Wu
 Date: Fri, 10 May 2013 21:25 GMT-0700 (PST)
 Node: v0.10.3
