@@ -81,7 +81,7 @@ function setup_blog() {
 
 function start_node() {
   cd ~/
-  /usr/local/bin/forever /usr/local/bin/node myblog/blog.js &
+  forever start myblog/blog.js
 }
 
 # ===== MAIN =====
