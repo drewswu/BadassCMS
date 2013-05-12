@@ -1,4 +1,4 @@
-Title: "So I Tried the Occulus Rift..."
+Title: "So I Tried the Occulus Rift . . ."
 Author: Drew Wu
 Date: Tues, 30 Apr 2013 00:49 GMT-0700 (PST)
 Node: v2013-04-30

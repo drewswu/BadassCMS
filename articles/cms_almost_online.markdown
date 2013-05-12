@@ -1,4 +1,4 @@
-Title: "It's alive... It's Alive!"
+Title: "It's alive . . . It's Alive!"
 Author: Drew Wu
 Date: Sun, 29 Apr 2013 05:41:35 GMT-0700 (PST)
 Node: 2013-05-29
