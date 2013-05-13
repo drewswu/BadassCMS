@@ -9,10 +9,10 @@ The controls are managed with a swipe motion on the glass frame. The impression 
 
 With the glasses comes the whole issue of being too connected to the Internet as well as acting as a barrier in social situations. I think constantly absorbing streams of admittedly interesting data, could detract from our attention spans and our psyches. And in social situations it just might be a little distracting, or difficult to maintain eye contact. But who knows, if it were commonplace maybe it would become more socially acceptable?
 
-<img src="https://pbs.twimg.com/media/BIl9ifwCcAAMnOU.jpg" style="float: none"></img>
-The google glass is crying out to be modded... 
 
+<b>The google glass is just crying out to be modded...</b>
+<img src="https://pbs.twimg.com/media/BIl9ifwCcAAMnOU.jpg" style="float: none"></img><br>
 
-I can already think of an ideal use case, add a pair of shades to the frame and bring a keyboard, and work during meetings.
+I can already think of an ideal use case, attach a pair of shades to the frame, bring a bluetooth keyboard, and work during meetings--productivity + morale will increase for sure.
 
 I'm interested to see how people use this device, and where it goes from here.
