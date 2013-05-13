@@ -9,7 +9,7 @@ The controls are managed with a swipe motion on the glass frame. The impression 
 
 With the glasses comes the whole issue of being too connected to the Internet as well as acting as a barrier in social situations. I think constantly absorbing streams of admittedly interesting data, could detract from our attention spans and our psyches. And in social situations it just might be a little distracting, or difficult to maintain eye contact. But who knows, if it were commonplace maybe it would become more socially acceptable?
 
-<img src="pic.twitter.com/POKS5hsCYM" style="float: none"></img>
+<img src="http://pic.twitter.com/POKS5hsCYM" style="float: none"></img>
 The google glass is crying out to be modded :)
 
 
