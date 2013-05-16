@@ -1,7 +1,7 @@
 Title: "#ifihadglass you'd probably get bored and change the channel . . ."
 Author: Drew Wu
 Date: Sunday, 12 May 2013 13:27 GMT-0700 (PST)
-Node: v2013-04-30
+Node: v2013.04.30
 
 A while back I got a chance to try out the google glass. I was immediately impressed by how fun and novel this little device was. The display was far off to the upper right periphery so it was not entirely distracting. The glasses could take photos to be uploaded to Twitter or Facebook. It could record video, and probably many more interesting things that I didn't have time to try. Overall, I felt this little device was as useful and fun as an iPad mini, not an absolute necessity, but a really cool gadget to have.
 
