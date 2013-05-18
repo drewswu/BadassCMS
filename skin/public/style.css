@@ -62,9 +62,8 @@ dl a:hover {
   position: absolute;
   left: 0;
   top: 0;
-  font-size: 8px;
   width: 100%;
-  height: 100px;
+  height: 50px;
   color: #0066cc;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3399ff), color-stop(1, #333333));
   background-image: -webkit-linear-gradient(top, #3399ff 0%, #333333 100%);
@@ -82,6 +81,7 @@ dl a:hover {
   height: 10%
   top: -15px;
   left: 18px;
+  font-size: 8px;
 }
 #header .tagline {
   float: left;
