@@ -81,14 +81,13 @@ dl a:hover {
   height: 10%
   top: -15px;
   left: 18px;
-  font-size: 8px;
 }
 #header .tagline {
   float: left;
   display: inline;
   color: #fff;
   margin-left: 24px;
-  font-size: 24px;
+  font-size: 10px;
   font: Helvetica bold
   font-weight: normal;
   line-height: 10px;
