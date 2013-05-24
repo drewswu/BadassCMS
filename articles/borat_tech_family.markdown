@@ -7,6 +7,7 @@ I thought it'd be kind of cool to aggregate all of the Borat Tech accounts on Tw
 ## Twitter API
 
 Working with the Twitter API is easy. Its a rigorous API with a lot of common sense features and endpoints. It is well served by the documentation, which is spot on. The basic flow works in several steps:
+
 1) Enable access to the API on your Twitter account
 2) Use the API key to authenticate via oauth
 3) <b>Get</b> all the screen_names from your following list
@@ -17,5 +18,5 @@ Working with the Twitter API is easy. Its a rigorous API with a lot of common se
 ## Python
 
 These are the modules I used:
-  unicode_literals, requests, json, pprint, urlparse, parse_qs
+  __future__, requests, random, json, pprint, urlparse, requests_oauthlib
 
