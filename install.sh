@@ -63,6 +63,11 @@ function install_node_pkgs() {
   sudo /usr/local/bin/npm install -g wheat proto git-fs step haml datetime simple-mime stack creationix
 }
 
+function install_python_mods() {
+  sudo easy_install pip
+  sudo pip install requests
+  sudo pip install requests_oauthlib
+}
 # Setup blog git repo
 function setup_blog() {
   sudo mkdir -p ${blog_dir} && sudo chown -R ec2-user:ec2-user ${git_dir}
@@ -92,6 +97,7 @@ install_devel_pkgs
 install_git
 install_node
 install_node_pkgs
+install_python_mods
 fi
 setup_blog
 start_node
